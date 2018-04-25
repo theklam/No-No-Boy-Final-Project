@@ -161,6 +161,12 @@
 			z-index: 1;
 		}
 
+/* Video */
+	video {
+	  width: 100%    !important;
+	  height: auto   !important;
+	}
+
 /* Icons */
 
 	.icon {

@@ -8,12 +8,12 @@ window.onload = function() {
     }
 }
 
-var audio = $("#mySoundClip")[0];
-$("article.item.thumb")
-    .mouseenter(function() {
-        audio.play();
-    })
-    .mouseleave(function() {
-        audio.pause();
-        audio.currentTime = 0;
-    });
+// var audio = $("#mySoundClip")[0];
+// $("article.item.thumb")
+//     .mouseenter(function() {
+//         audio.play();
+//     })
+//     .mouseleave(function() {
+//         audio.pause();
+//         audio.currentTime = 0;
+//     });
